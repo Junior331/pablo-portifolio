@@ -1,7 +1,7 @@
-// tailwind.config.mjs
-import { defineConfig } from 'tailwindcss';
+/* eslint-disable @typescript-eslint/no-require-imports */
+import type { Config } from "tailwindcss";
 
-export default defineConfig({
+const config: Config = {
   darkMode: ["class"],
   content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
 
@@ -89,4 +89,6 @@ export default defineConfig({
     },
   },
   plugins: [require("tailwindcss-animate")],
-});
+};
+
+export default config;
