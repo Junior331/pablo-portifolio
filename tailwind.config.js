@@ -1,5 +1,7 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+// tailwind.config.mjs
+import { defineConfig } from 'tailwindcss';
+
+export default defineConfig({
   darkMode: ["class"],
   content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
 
@@ -87,4 +89,4 @@ export default {
     },
   },
   plugins: [require("tailwindcss-animate")],
-};
+});
