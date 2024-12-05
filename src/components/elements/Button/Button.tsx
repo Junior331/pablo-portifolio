@@ -9,7 +9,7 @@ export const Button = ({
   initialText = "",
   downloadFileUrl = "",
   downloadStatus = false,
-  buttonColor = "#000000",
+  buttonColor = "#15161A",
   buttonTextColor = "#ffffff",
 }: AnimatedSubscribeButtonProps) => {
   const [isDownload, setIsDownload] = useState<boolean>(downloadStatus);
@@ -52,7 +52,7 @@ export const Button = ({
             {
               backgroundColor: buttonColor,
               color: buttonTextColor,
-              "--pulse-color": "#212222",
+              "--pulse-color": "#1e1f24",
               "--duration": "1.5s",
             } as CSSProperties
           }

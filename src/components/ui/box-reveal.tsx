@@ -40,6 +40,7 @@ export const BoxReveal = ({
           visible: { opacity: 1, y: 0 },
         }}
         initial="hidden"
+        className="p-3"
         animate={mainControls}
         transition={{ duration: duration ? duration : 0.5, delay: 0.25 }}
       >

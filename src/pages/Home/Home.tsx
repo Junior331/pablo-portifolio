@@ -11,7 +11,7 @@ import BlurIn from "@/components/ui/blur-in";
 export const Home = () => (
   <Layout>
     <div className="w-full h-full flex-1 flex flex-col justify-between items-center pb-6">
-      <div className="flex mt-10 items-center justify-between w-full px-14 max-[1000px]:flex-wrap ">
+      <div className="flex items-center justify-between w-full px-14 max-[1000px]:flex-wrap ">
         <div className="flex flex-col gap-14 w-full ">
           <BoxReveal boxColor={"#262626"} duration={0.5}>
             <h2 className="irish-grover-regular text-5xl leading-[55px]">
@@ -51,7 +51,7 @@ export const Home = () => (
               <BoxReveal boxColor={"#262626"} duration={0.5}>
                 <Button
                   downloadStatus={false}
-                  buttonColor="#000000"
+                  buttonColor="#15161A"
                   buttonTextColor="#ffffff"
                   initialText={
                     <span className="group inline-flex items-center">
